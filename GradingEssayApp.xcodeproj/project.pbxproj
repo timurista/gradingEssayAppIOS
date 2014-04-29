@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35950F62190F3CFA006FC8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F61190F3CFA006FC8E1 /* Foundation.framework */; };
+		35950F64190F3CFA006FC8E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F63190F3CFA006FC8E1 /* CoreGraphics.framework */; };
+		35950F66190F3CFA006FC8E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F65190F3CFA006FC8E1 /* UIKit.framework */; };
+		35950F6C190F3CFA006FC8E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35950F6A190F3CFA006FC8E1 /* InfoPlist.strings */; };
+		35950F6E190F3CFA006FC8E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F6D190F3CFA006FC8E1 /* main.m */; };
+		35950F72190F3CFA006FC8E1 /* gEssayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F71190F3CFA006FC8E1 /* gEssayAppDelegate.m */; };
+		35950F75190F3CFA006FC8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35950F73190F3CFA006FC8E1 /* Main.storyboard */; };
+		35950F78190F3CFA006FC8E1 /* gEssayFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F77190F3CFA006FC8E1 /* gEssayFirstViewController.m */; };
+		35950F7B190F3CFA006FC8E1 /* gEssaySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F7A190F3CFA006FC8E1 /* gEssaySecondViewController.m */; };
+		35950F7D190F3CFA006FC8E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35950F7C190F3CFA006FC8E1 /* Images.xcassets */; };
+		35950F84190F3CFA006FC8E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F83190F3CFA006FC8E1 /* XCTest.framework */; };
+		35950F85190F3CFA006FC8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F61190F3CFA006FC8E1 /* Foundation.framework */; };
+		35950F86190F3CFA006FC8E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F65190F3CFA006FC8E1 /* UIKit.framework */; };
+		35950F8E190F3CFA006FC8E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35950F8C190F3CFA006FC8E1 /* InfoPlist.strings */; };
+		35950F90190F3CFA006FC8E1 /* GradingEssayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35950F87190F3CFA006FC8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35950F56190F3CFA006FC8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35950F5D190F3CFA006FC8E1;
+			remoteInfo = GradingEssayApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35950F5E190F3CFA006FC8E1 /* GradingEssayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradingEssayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35950F61190F3CFA006FC8E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35950F63190F3CFA006FC8E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35950F65190F3CFA006FC8E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35950F69190F3CFA006FC8E1 /* GradingEssayApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradingEssayApp-Info.plist"; sourceTree = "<group>"; };
+		35950F6B190F3CFA006FC8E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35950F6D190F3CFA006FC8E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35950F6F190F3CFA006FC8E1 /* GradingEssayApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradingEssayApp-Prefix.pch"; sourceTree = "<group>"; };
+		35950F70190F3CFA006FC8E1 /* gEssayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gEssayAppDelegate.h; sourceTree = "<group>"; };
+		35950F71190F3CFA006FC8E1 /* gEssayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gEssayAppDelegate.m; sourceTree = "<group>"; };
+		35950F74190F3CFA006FC8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35950F76190F3CFA006FC8E1 /* gEssayFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gEssayFirstViewController.h; sourceTree = "<group>"; };
+		35950F77190F3CFA006FC8E1 /* gEssayFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gEssayFirstViewController.m; sourceTree = "<group>"; };
+		35950F79190F3CFA006FC8E1 /* gEssaySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gEssaySecondViewController.h; sourceTree = "<group>"; };
+		35950F7A190F3CFA006FC8E1 /* gEssaySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gEssaySecondViewController.m; sourceTree = "<group>"; };
+		35950F7C190F3CFA006FC8E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35950F82190F3CFA006FC8E1 /* GradingEssayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradingEssayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35950F83190F3CFA006FC8E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		35950F8B190F3CFA006FC8E1 /* GradingEssayAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradingEssayAppTests-Info.plist"; sourceTree = "<group>"; };
+		35950F8D190F3CFA006FC8E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradingEssayAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35950F5B190F3CFA006FC8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F64190F3CFA006FC8E1 /* CoreGraphics.framework in Frameworks */,
+				35950F66190F3CFA006FC8E1 /* UIKit.framework in Frameworks */,
+				35950F62190F3CFA006FC8E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950F7F190F3CFA006FC8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F84190F3CFA006FC8E1 /* XCTest.framework in Frameworks */,
+				35950F86190F3CFA006FC8E1 /* UIKit.framework in Frameworks */,
+				35950F85190F3CFA006FC8E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35950F55190F3CFA006FC8E1 = {
+			isa = PBXGroup;
+			children = (
+				35950F67190F3CFA006FC8E1 /* GradingEssayApp */,
+				35950F89190F3CFA006FC8E1 /* GradingEssayAppTests */,
+				35950F60190F3CFA006FC8E1 /* Frameworks */,
+				35950F5F190F3CFA006FC8E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35950F5F190F3CFA006FC8E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35950F5E190F3CFA006FC8E1 /* GradingEssayApp.app */,
+				35950F82190F3CFA006FC8E1 /* GradingEssayAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35950F60190F3CFA006FC8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35950F61190F3CFA006FC8E1 /* Foundation.framework */,
+				35950F63190F3CFA006FC8E1 /* CoreGraphics.framework */,
+				35950F65190F3CFA006FC8E1 /* UIKit.framework */,
+				35950F83190F3CFA006FC8E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35950F67190F3CFA006FC8E1 /* GradingEssayApp */ = {
+			isa = PBXGroup;
+			children = (
+				35950F70190F3CFA006FC8E1 /* gEssayAppDelegate.h */,
+				35950F71190F3CFA006FC8E1 /* gEssayAppDelegate.m */,
+				35950F73190F3CFA006FC8E1 /* Main.storyboard */,
+				35950F76190F3CFA006FC8E1 /* gEssayFirstViewController.h */,
+				35950F77190F3CFA006FC8E1 /* gEssayFirstViewController.m */,
+				35950F79190F3CFA006FC8E1 /* gEssaySecondViewController.h */,
+				35950F7A190F3CFA006FC8E1 /* gEssaySecondViewController.m */,
+				35950F7C190F3CFA006FC8E1 /* Images.xcassets */,
+				35950F68190F3CFA006FC8E1 /* Supporting Files */,
+			);
+			path = GradingEssayApp;
+			sourceTree = "<group>";
+		};
+		35950F68190F3CFA006FC8E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35950F69190F3CFA006FC8E1 /* GradingEssayApp-Info.plist */,
+				35950F6A190F3CFA006FC8E1 /* InfoPlist.strings */,
+				35950F6D190F3CFA006FC8E1 /* main.m */,
+				35950F6F190F3CFA006FC8E1 /* GradingEssayApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35950F89190F3CFA006FC8E1 /* GradingEssayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */,
+				35950F8A190F3CFA006FC8E1 /* Supporting Files */,
+			);
+			path = GradingEssayAppTests;
+			sourceTree = "<group>";
+		};
+		35950F8A190F3CFA006FC8E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35950F8B190F3CFA006FC8E1 /* GradingEssayAppTests-Info.plist */,
+				35950F8C190F3CFA006FC8E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35950F5D190F3CFA006FC8E1 /* GradingEssayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35950F93190F3CFA006FC8E1 /* Build configuration list for PBXNativeTarget "GradingEssayApp" */;
+			buildPhases = (
+				35950F5A190F3CFA006FC8E1 /* Sources */,
+				35950F5B190F3CFA006FC8E1 /* Frameworks */,
+				35950F5C190F3CFA006FC8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradingEssayApp;
+			productName = GradingEssayApp;
+			productReference = 35950F5E190F3CFA006FC8E1 /* GradingEssayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35950F81190F3CFA006FC8E1 /* GradingEssayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35950F96190F3CFA006FC8E1 /* Build configuration list for PBXNativeTarget "GradingEssayAppTests" */;
+			buildPhases = (
+				35950F7E190F3CFA006FC8E1 /* Sources */,
+				35950F7F190F3CFA006FC8E1 /* Frameworks */,
+				35950F80190F3CFA006FC8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35950F88190F3CFA006FC8E1 /* PBXTargetDependency */,
+			);
+			name = GradingEssayAppTests;
+			productName = GradingEssayAppTests;
+			productReference = 35950F82190F3CFA006FC8E1 /* GradingEssayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35950F56190F3CFA006FC8E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gEssay;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tim Urista";
+				TargetAttributes = {
+					35950F81190F3CFA006FC8E1 = {
+						TestTargetID = 35950F5D190F3CFA006FC8E1;
+					};
+				};
+			};
+			buildConfigurationList = 35950F59190F3CFA006FC8E1 /* Build configuration list for PBXProject "GradingEssayApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35950F55190F3CFA006FC8E1;
+			productRefGroup = 35950F5F190F3CFA006FC8E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35950F5D190F3CFA006FC8E1 /* GradingEssayApp */,
+				35950F81190F3CFA006FC8E1 /* GradingEssayAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35950F5C190F3CFA006FC8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F7D190F3CFA006FC8E1 /* Images.xcassets in Resources */,
+				35950F6C190F3CFA006FC8E1 /* InfoPlist.strings in Resources */,
+				35950F75190F3CFA006FC8E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950F80190F3CFA006FC8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F8E190F3CFA006FC8E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35950F5A190F3CFA006FC8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F78190F3CFA006FC8E1 /* gEssayFirstViewController.m in Sources */,
+				35950F72190F3CFA006FC8E1 /* gEssayAppDelegate.m in Sources */,
+				35950F7B190F3CFA006FC8E1 /* gEssaySecondViewController.m in Sources */,
+				35950F6E190F3CFA006FC8E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35950F7E190F3CFA006FC8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35950F90190F3CFA006FC8E1 /* GradingEssayAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35950F88190F3CFA006FC8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35950F5D190F3CFA006FC8E1 /* GradingEssayApp */;
+			targetProxy = 35950F87190F3CFA006FC8E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35950F6A190F3CFA006FC8E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35950F6B190F3CFA006FC8E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35950F73190F3CFA006FC8E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35950F74190F3CFA006FC8E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35950F8C190F3CFA006FC8E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35950F8D190F3CFA006FC8E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35950F91190F3CFA006FC8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35950F92190F3CFA006FC8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35950F94190F3CFA006FC8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradingEssayApp/GradingEssayApp-Prefix.pch";
+				INFOPLIST_FILE = "GradingEssayApp/GradingEssayApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35950F95190F3CFA006FC8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradingEssayApp/GradingEssayApp-Prefix.pch";
+				INFOPLIST_FILE = "GradingEssayApp/GradingEssayApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35950F97190F3CFA006FC8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GradingEssayApp.app/GradingEssayApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradingEssayApp/GradingEssayApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GradingEssayAppTests/GradingEssayAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		35950F98190F3CFA006FC8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GradingEssayApp.app/GradingEssayApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradingEssayApp/GradingEssayApp-Prefix.pch";
+				INFOPLIST_FILE = "GradingEssayAppTests/GradingEssayAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35950F59190F3CFA006FC8E1 /* Build configuration list for PBXProject "GradingEssayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35950F91190F3CFA006FC8E1 /* Debug */,
+				35950F92190F3CFA006FC8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35950F93190F3CFA006FC8E1 /* Build configuration list for PBXNativeTarget "GradingEssayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35950F94190F3CFA006FC8E1 /* Debug */,
+				35950F95190F3CFA006FC8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35950F96190F3CFA006FC8E1 /* Build configuration list for PBXNativeTarget "GradingEssayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35950F97190F3CFA006FC8E1 /* Debug */,
+				35950F98190F3CFA006FC8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35950F56190F3CFA006FC8E1 /* Project object */;
+}
