@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Tim Urista. All rights reserved.
 //
 
+#import "gEssayFirstViewController.h"
+#import "gEssay-Data.h"
 #import <XCTest/XCTest.h>
 
 @interface GradingEssayAppTests : XCTestCase
@@ -17,6 +19,7 @@
 - (void)setUp
 {
     [super setUp];
+    
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
@@ -26,9 +29,28 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+-(void)testDataNotNil {
+    gEssay_Data* data = [gEssay_Data new];
+    assert(data.data[0][0]>0);
 }
-
+-(void)testContentGetNotNil{
+    gEssay_Data* data = [gEssay_Data new];
+    NSArray *c =[data getContent];
+    NSLog(@"%@",c);
+    assert([c count]>0);
+}
+-(void)testGetContentNotNil{
+    gEssay_Data* data = [gEssay_Data new];
+    NSArray *c =[data getContent];
+    NSArray *cat =[data getDataWithContentName:c[0]];
+    assert([cat count]>0);
+//    XCTFail(@"deliberate failure");
+}
+-(void) testGetCategoriesNotNil {
+    gEssay_Data* data = [gEssay_Data new];
+    NSArray *c =[data getContent];
+    NSArray *cat =[data getDataWithContentName:c[0]];
+    NSArray *subtitles = [data getCategoriesFromArray:cat];
+    assert([subtitles count]>0);
+}
 @end

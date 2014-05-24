@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface gEssayFirstViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *sv;
+@property (strong, nonatomic) IBOutlet UITextView *essayTV;
+@property (strong, nonatomic) IBOutlet UIButton *scrollB;
+
+- (IBAction)scrollNow:(id)sender;
+-(void) scroller;
+- (IBAction)addError:(id)sender;
+-(void)applyBGColortoSelection:(BOOL)selected range:(NSRange)range;
+- (IBAction)reset:(id)sender;
 
 @end
