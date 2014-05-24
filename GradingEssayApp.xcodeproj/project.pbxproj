@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		358010F519157383007E278A /* gEssayReviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 358010F419157383007E278A /* gEssayReviewVC.m */; };
 		35950F62190F3CFA006FC8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F61190F3CFA006FC8E1 /* Foundation.framework */; };
 		35950F64190F3CFA006FC8E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F63190F3CFA006FC8E1 /* CoreGraphics.framework */; };
 		35950F66190F3CFA006FC8E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F65190F3CFA006FC8E1 /* UIKit.framework */; };
@@ -22,6 +23,12 @@
 		35950F86190F3CFA006FC8E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35950F65190F3CFA006FC8E1 /* UIKit.framework */; };
 		35950F8E190F3CFA006FC8E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35950F8C190F3CFA006FC8E1 /* InfoPlist.strings */; };
 		35950F90190F3CFA006FC8E1 /* GradingEssayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */; };
+		359FB0B71913DDFE00DA2CC1 /* gEssay-TableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 359FB0B61913DDFE00DA2CC1 /* gEssay-TableTest.m */; };
+		359FB0C019141BCD00DA2CC1 /* gEssay_CategoryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 359FB0BF19141BCD00DA2CC1 /* gEssay_CategoryTVC.m */; };
+		359FB0C31914624400DA2CC1 /* gEssay_SelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 359FB0C21914624400DA2CC1 /* gEssay_SelectVC.m */; };
+		35BC7C4E1917EA8600C9E08A /* gEssayMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC7C4D1917EA8600C9E08A /* gEssayMainVC.m */; };
+		35E346121912BB810094EF91 /* gEssay-Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E346111912BB810094EF91 /* gEssay-Data.m */; };
+		35E34615191300AD0094EF91 /* gEssayTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E34614191300AD0094EF91 /* gEssayTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		358010F319157383007E278A /* gEssayReviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gEssayReviewVC.h; sourceTree = "<group>"; };
+		358010F419157383007E278A /* gEssayReviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gEssayReviewVC.m; sourceTree = "<group>"; };
 		35950F5E190F3CFA006FC8E1 /* GradingEssayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradingEssayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35950F61190F3CFA006FC8E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35950F63190F3CFA006FC8E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +65,17 @@
 		35950F8B190F3CFA006FC8E1 /* GradingEssayAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradingEssayAppTests-Info.plist"; sourceTree = "<group>"; };
 		35950F8D190F3CFA006FC8E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradingEssayAppTests.m; sourceTree = "<group>"; };
+		359FB0B61913DDFE00DA2CC1 /* gEssay-TableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gEssay-TableTest.m"; sourceTree = "<group>"; };
+		359FB0BE19141BCD00DA2CC1 /* gEssay_CategoryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gEssay_CategoryTVC.h; sourceTree = "<group>"; };
+		359FB0BF19141BCD00DA2CC1 /* gEssay_CategoryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gEssay_CategoryTVC.m; sourceTree = "<group>"; };
+		359FB0C11914624400DA2CC1 /* gEssay_SelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gEssay_SelectVC.h; sourceTree = "<group>"; };
+		359FB0C21914624400DA2CC1 /* gEssay_SelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gEssay_SelectVC.m; sourceTree = "<group>"; };
+		35BC7C4C1917EA8600C9E08A /* gEssayMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gEssayMainVC.h; sourceTree = "<group>"; };
+		35BC7C4D1917EA8600C9E08A /* gEssayMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gEssayMainVC.m; sourceTree = "<group>"; };
+		35E346101912BB810094EF91 /* gEssay-Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gEssay-Data.h"; sourceTree = "<group>"; };
+		35E346111912BB810094EF91 /* gEssay-Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gEssay-Data.m"; sourceTree = "<group>"; };
+		35E34613191300AD0094EF91 /* gEssayTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gEssayTVC.h; sourceTree = "<group>"; };
+		35E34614191300AD0094EF91 /* gEssayTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gEssayTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +138,11 @@
 				35950F70190F3CFA006FC8E1 /* gEssayAppDelegate.h */,
 				35950F71190F3CFA006FC8E1 /* gEssayAppDelegate.m */,
 				35950F73190F3CFA006FC8E1 /* Main.storyboard */,
+				35BC7C4C1917EA8600C9E08A /* gEssayMainVC.h */,
+				35BC7C4D1917EA8600C9E08A /* gEssayMainVC.m */,
+				358010F319157383007E278A /* gEssayReviewVC.h */,
+				358010F419157383007E278A /* gEssayReviewVC.m */,
+				359FB0BD191418C300DA2CC1 /* TableView */,
 				35950F76190F3CFA006FC8E1 /* gEssayFirstViewController.h */,
 				35950F77190F3CFA006FC8E1 /* gEssayFirstViewController.m */,
 				35950F79190F3CFA006FC8E1 /* gEssaySecondViewController.h */,
@@ -135,6 +160,8 @@
 				35950F6A190F3CFA006FC8E1 /* InfoPlist.strings */,
 				35950F6D190F3CFA006FC8E1 /* main.m */,
 				35950F6F190F3CFA006FC8E1 /* GradingEssayApp-Prefix.pch */,
+				35E346101912BB810094EF91 /* gEssay-Data.h */,
+				35E346111912BB810094EF91 /* gEssay-Data.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				35950F8F190F3CFA006FC8E1 /* GradingEssayAppTests.m */,
+				359FB0B61913DDFE00DA2CC1 /* gEssay-TableTest.m */,
 				35950F8A190F3CFA006FC8E1 /* Supporting Files */,
 			);
 			path = GradingEssayAppTests;
@@ -155,6 +183,19 @@
 				35950F8C190F3CFA006FC8E1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		359FB0BD191418C300DA2CC1 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				35E34613191300AD0094EF91 /* gEssayTVC.h */,
+				35E34614191300AD0094EF91 /* gEssayTVC.m */,
+				359FB0BE19141BCD00DA2CC1 /* gEssay_CategoryTVC.h */,
+				359FB0BF19141BCD00DA2CC1 /* gEssay_CategoryTVC.m */,
+				359FB0C11914624400DA2CC1 /* gEssay_SelectVC.h */,
+				359FB0C21914624400DA2CC1 /* gEssay_SelectVC.m */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358010F519157383007E278A /* gEssayReviewVC.m in Sources */,
+				359FB0C31914624400DA2CC1 /* gEssay_SelectVC.m in Sources */,
 				35950F78190F3CFA006FC8E1 /* gEssayFirstViewController.m in Sources */,
+				35E34615191300AD0094EF91 /* gEssayTVC.m in Sources */,
 				35950F72190F3CFA006FC8E1 /* gEssayAppDelegate.m in Sources */,
 				35950F7B190F3CFA006FC8E1 /* gEssaySecondViewController.m in Sources */,
+				359FB0C019141BCD00DA2CC1 /* gEssay_CategoryTVC.m in Sources */,
 				35950F6E190F3CFA006FC8E1 /* main.m in Sources */,
+				35E346121912BB810094EF91 /* gEssay-Data.m in Sources */,
+				35BC7C4E1917EA8600C9E08A /* gEssayMainVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359FB0B71913DDFE00DA2CC1 /* gEssay-TableTest.m in Sources */,
 				35950F90190F3CFA006FC8E1 /* GradingEssayAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +511,7 @@
 				35950F95190F3CFA006FC8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35950F96190F3CFA006FC8E1 /* Build configuration list for PBXNativeTarget "GradingEssayAppTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +520,7 @@
 				35950F98190F3CFA006FC8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
